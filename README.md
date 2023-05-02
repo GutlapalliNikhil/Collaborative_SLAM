@@ -1,12 +1,19 @@
 ## Installation
 
 mkdir catkin_make
+
 cd catkin_make
+
 mkdir src
+
 cd src
+
 git clone https://github.com/GutlapalliNikhil/Collaborative_SLAM.git
+
 cd ..
+
 catkin_make
+
 source devel/setup.bash
 
 ## Launching 2 turtlebots in gazebo env
