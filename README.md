@@ -1,4 +1,5 @@
-##
+## Installation
+
 mkdir catkin_make
 cd catkin_make
 mkdir src
@@ -8,11 +9,11 @@ cd ..
 catkin_make
 source devel/setup.bash
 
-1) Launching 2 turtlebots in gazebo env
+## Launching 2 turtlebots in gazebo env
 
 roslaunch ros_multi_tb3 2_tb3_house.launch
 
-2) Running the exploration on those 2 robots
+## Running the exploration on those 2 robots
 
 roslaunch explore_lite explore_1.launch
 
